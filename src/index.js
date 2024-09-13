@@ -2,8 +2,11 @@
 function generateRecipe(event){
     event.preventDefault();
 
+    //build API URL
+    //Make a call to the API
+
     new Typerwriter("#recipe",{
-        strings: "Sauerkraut tacos",
+        strings: "tequila sunrise",
         autostart: true,
         delay: 1,
         cursor: "",
