@@ -67,7 +67,8 @@ form {
 
 .recipe {
     font-size: 16px;
-    background-color: #fff;
+    background-color: #61C7E3;
+    color:white;
     padding: 20px;
     line-height: 2;
     border-left: 3px solid #FF8267;

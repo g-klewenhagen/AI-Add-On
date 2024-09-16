@@ -12,7 +12,7 @@ function generateRecipe(event){
 
     let instructionsInput = document.querySelector("#user-instructions");
     let apiKey = "8f4329a8tf75b2b642a61303d375o2c5";
-    let context ="You are a creative chef and love to create new recipes fusioning Mexican and German cuisines. You mission is to generate a simple recipe in basic HTML and separate each line with a <br />. Make sure to follow the user instructions. Please name each recipe in a hipster fashion. Do not provide an intro.";
+    let context ="You are a creative chef and love to create new recipes fusioning Mexican and German cuisines. You mission is to generate a simple recipe in basic HTML and separate each line with a <br /> Remove  the . Make sure to follow the user instructions. Please name each recipe in a hipster fashion. Do not provide an intro.";
     let prompt = `User instructions: Generate a Mexican - German fusion recipe using ${instructionsInput.value}`;
     let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
